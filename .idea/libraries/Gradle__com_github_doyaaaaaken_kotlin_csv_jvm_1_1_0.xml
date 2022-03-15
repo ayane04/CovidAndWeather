@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.doyaaaaaken:kotlin-csv-jvm:1.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.doyaaaaaken/kotlin-csv-jvm/1.1.0/420e455034ca8bb28d00d6069cc71fc81128c6d1/kotlin-csv-jvm-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.doyaaaaaken/kotlin-csv-jvm/1.1.0/ff088d6ee4ccb638fae5527bec2e4782291ebe31/kotlin-csv-jvm-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.doyaaaaaken/kotlin-csv-jvm/1.1.0/72f3e24653b181e9f51e02c6c090194ce489f487/kotlin-csv-jvm-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
