@@ -56,7 +56,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/gradient_bg"
         android:orientation="vertical"
-        android:paddingTop="60dp">
+        android:paddingTop="90dp">
 
         <RelativeLayout
             android:id="@+id/mainContainer"
@@ -83,16 +83,16 @@
                 <Spinner
                     android:id="@+id/spinner"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="44dp"
                     android:layout_gravity="center"
-                    android:entries="@array/states"
+                    android:gravity="center"
+                    android:entries="@array/statesWeather"
                     android:fontFamily="sans-serif-thin"
-                    android:paddingLeft="50sp"
                     android:textSize="90sp" />
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="49dp"
                     android:layout_gravity="center"
                     android:layout_marginBottom="10dp"
                     android:gravity="center"
@@ -110,7 +110,7 @@
                     android:padding="7dp"
                     android:text="Your location: "
                     android:textColor="#F4F2F2"
-                    android:textSize="16dp" />
+                    android:textSize="14dp" />
 
                 <TextView
                     android:id="@+id/updated_at"
@@ -121,11 +121,11 @@
                     android:padding="7dp"
                     android:text="Updated at:"
                     android:textColor="#F8F5F5"
-                    android:textSize="16dp" />
+                    android:textSize="14dp" />
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="23dp"
                     android:layout_gravity="center"
                     android:layout_marginBottom="10dp"
                     android:gravity="center"
@@ -135,12 +135,12 @@
                 <TextView
                     android:id="@+id/tvWeatherDesc"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="56dp"
                     android:layout_gravity="center"
                     android:fontFamily="sans-serif-thin"
                     android:text="Clear sky"
                     android:textColor="#FBFAFA"
-                    android:textSize="30dp" />
+                    android:textSize="35dp" />
 
                 <TextView
                     android:id="@+id/temp"
@@ -455,26 +455,26 @@
             android:text="Something went wrong"
             android:visibility="gone" />
 
-        <TextView
-            android:id="@+id/tv_latest_update_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginBottom="8dp"
-            android:fontFamily="@font/bold"
-            android:text="@string/overview"
-            android:textSize="20sp" />
+<!--        <TextView-->
+<!--            android:id="@+id/tv_latest_update_title"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="24dp"-->
+<!--            android:layout_marginTop="32dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:fontFamily="@font/bold"-->
+<!--            android:text="@string/overview"-->
+<!--            android:textSize="20sp" />-->
 
-        <TextView
-            android:id="@+id/tv_latest_update"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="8dp"
-            android:drawablePadding="5dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_latest_update_title" />
+<!--        <TextView-->
+<!--            android:id="@+id/tv_latest_update"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="24dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:drawablePadding="5dp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/tv_latest_update_title" />-->
 
     </RelativeLayout>
 

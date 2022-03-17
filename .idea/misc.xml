@@ -5,7 +5,8 @@
       <map>
         <entry key="app/src/main/res/drawable/gradient_bg.xml" value="0.1805" />
         <entry key="app/src/main/res/drawable/ic_dropdown.xml" value="0.1555" />
-        <entry key="app/src/main/res/layout/activity_questionnaire.xml" value="0.28804347826086957" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_questionnaire.xml" value="0.2548476454293629" />
         <entry key="app/src/main/res/layout/simple_spinner_dropdown_item.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/simple_spinner_item.xml" value="0.14583333333333334" />
       </map>

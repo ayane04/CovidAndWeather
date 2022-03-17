@@ -53,7 +53,7 @@ class QuestionnaireActivity : AppCompatActivity() {
         binding = ActivityQuestionnaireBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val adapter : ArrayAdapter<*> = ArrayAdapter.createFromResource(this, R.array.states, R.layout.simple_spinner_item)
+        val adapter : ArrayAdapter<*> = ArrayAdapter.createFromResource(this, R.array.statesWeather, R.layout.simple_spinner_item)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         binding.spinner.adapter = adapter
 
